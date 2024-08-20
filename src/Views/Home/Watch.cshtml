@@ -12,7 +12,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         @* <link href="~/css/video-js.css" rel="stylesheet" /> *@
-        <link href="https://vjs.zencdn.net/8.16.1/video-js.css" rel="stylesheet" />
+        <link href="~/css/video-js.css" rel="stylesheet" />
         <link rel="stylesheet" href="~/css/player.css" asp-append-version="true" />
     </head>
 
@@ -25,6 +25,7 @@
                     class="video-js"
                     controls
                     preload="auto"
+                    
                     poster="MY_VIDEO_POSTER.jpg"
                     data-setup="{}"
                 >
@@ -44,9 +45,6 @@
                                     <h5 class="card-title">
                                         @video.Name
                                     </h5>
-
-                                    <div class="preview">
-                                    </div>
                                     
                                     <a asp-action="Watch" asp-route-video="@video.Path" class="btn">Watch</a>
                                 </div>

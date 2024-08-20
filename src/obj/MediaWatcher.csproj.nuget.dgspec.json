@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/mnt/8b1a6e76-bbf8-4fe5-b4ae-04da55d7e0ac/Projects/MediaWatcher/MediaWatcher.csproj": {}
+    "/mnt/8b1a6e76-bbf8-4fe5-b4ae-04da55d7e0ac/Projects/MediaWatcher/src/MediaWatcher.csproj": {}
   },
   "projects": {
-    "/mnt/8b1a6e76-bbf8-4fe5-b4ae-04da55d7e0ac/Projects/MediaWatcher/MediaWatcher.csproj": {
+    "/mnt/8b1a6e76-bbf8-4fe5-b4ae-04da55d7e0ac/Projects/MediaWatcher/src/MediaWatcher.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/mnt/8b1a6e76-bbf8-4fe5-b4ae-04da55d7e0ac/Projects/MediaWatcher/MediaWatcher.csproj",
+        "projectUniqueName": "/mnt/8b1a6e76-bbf8-4fe5-b4ae-04da55d7e0ac/Projects/MediaWatcher/src/MediaWatcher.csproj",
         "projectName": "MediaWatcher",
-        "projectPath": "/mnt/8b1a6e76-bbf8-4fe5-b4ae-04da55d7e0ac/Projects/MediaWatcher/MediaWatcher.csproj",
+        "projectPath": "/mnt/8b1a6e76-bbf8-4fe5-b4ae-04da55d7e0ac/Projects/MediaWatcher/src/MediaWatcher.csproj",
         "packagesPath": "/home/opyrusdev/.nuget/packages/",
-        "outputPath": "/mnt/8b1a6e76-bbf8-4fe5-b4ae-04da55d7e0ac/Projects/MediaWatcher/obj/",
+        "outputPath": "/mnt/8b1a6e76-bbf8-4fe5-b4ae-04da55d7e0ac/Projects/MediaWatcher/src/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/opyrusdev/.nuget/NuGet/NuGet.Config"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/fT3wpfzSOY=",
+  "dgSpecHash": "yECaGibhJyM=",
   "success": true,
-  "projectFilePath": "/mnt/8b1a6e76-bbf8-4fe5-b4ae-04da55d7e0ac/Projects/MediaWatcher/MediaWatcher.csproj",
+  "projectFilePath": "/mnt/8b1a6e76-bbf8-4fe5-b4ae-04da55d7e0ac/Projects/MediaWatcher/src/MediaWatcher.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,0 +1,70 @@
+# Ignore build outputs
+bin/
+obj/
+
+# Ignore user-specific files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# Ignore publish output
+wwwroot/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Ignore any compiled DLLs or PDBs
+*.dll
+*.pdb
+*.exe
+*.nuget
+*.nupkg
+*.snupkg
+
+# Ignore NuGet packages
+*.nupkg
+*.snupkg
+packages/
+!packages/build/
+*.dSYM
+*.log
+
+# Ignore local database files
+*.mdf
+*.ldf
+
+# Ignore EF migrations
+Migrations/
+
+# Rider project files
+.idea/
+
+# Visual Studio Code settings
+.vscode/
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+.vscode/extensions.json
+
+# Ignore JetBrains Rider settings
+.idea/
+*.sln.iml
+
+# Ignore ReSharper files
+_ReSharper*/
+*.DotSettings.user
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Ignore Azure Web Apps metadata files
+.scm/
+
