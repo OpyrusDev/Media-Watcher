@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+    padding: 2%;
+    justify-content: space-between;
+    background: linear-gradient(#050505, #18181d);
+}
+
+.media-player{
+    width: 70%;
+}
+
+.media-player  video{
+    width: 100%;
+}
+
+.right-section{
+    width: 20%;
+}
+
+.right-section ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 15px;
+}

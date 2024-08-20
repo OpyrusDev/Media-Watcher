@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>@ViewData["Title"] - MediaWatcher</title>
+        <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+        <link rel="stylesheet" href="~/MediaWatcher.styles.css" asp-append-version="true" />
+        <link rel="stylesheet" href='~/css/boxicons.min.css' />
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <a asp-action="index"> MediaWatcher </a>
+            </div>
+
+            <div class="search">
+                <input type="text" placeholder="Type to search" />
+            </div>
+
+            <div></div>
+        </header>
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </body>
+</html>

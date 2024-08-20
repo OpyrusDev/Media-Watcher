@@ -1,0 +1,63 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Video Play";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        @* <link href="~/css/video-js.css" rel="stylesheet" /> *@
+        <link href="https://vjs.zencdn.net/8.16.1/video-js.css" rel="stylesheet" />
+        <link rel="stylesheet" href="~/css/player.css" asp-append-version="true" />
+    </head>
+
+    <body>
+        <div class="container">
+            
+            <div class="media-player">
+                <video
+                    id="my-video"
+                    class="video-js"
+                    controls
+                    preload="auto"
+                    poster="MY_VIDEO_POSTER.jpg"
+                    data-setup="{}"
+                >
+                <source src='@Model["videoSrc"]'/>
+                <h2 class="page-title"> @Model["title"]</h2>
+            </div>        
+
+            <div class="right-section">
+                <h1 class="page-title">Playlist</h1>
+                <ul>
+                    @foreach(var video in Model["otherVideos"]){
+                        <li>
+                            <div class="card">
+                                <div class="card-body">
+                                    <i class="bx bxs-videos"></i>
+                                    
+                                    <h5 class="card-title">
+                                        @video.Name
+                                    </h5>
+
+                                    <div class="preview">
+                                    </div>
+                                    
+                                    <a asp-action="Watch" asp-route-video="@video.Path" class="btn">Watch</a>
+                                </div>
+                            </div>
+                        </li>
+                    }
+                </ul>
+            </div>
+        </div>
+
+        
+    </body>
+
+</html>

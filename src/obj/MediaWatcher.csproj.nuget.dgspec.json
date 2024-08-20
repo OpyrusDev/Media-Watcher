@@ -1,0 +1,70 @@
+{
+  "format": 1,
+  "restore": {
+    "/mnt/8b1a6e76-bbf8-4fe5-b4ae-04da55d7e0ac/Projects/MediaWatcher/MediaWatcher.csproj": {}
+  },
+  "projects": {
+    "/mnt/8b1a6e76-bbf8-4fe5-b4ae-04da55d7e0ac/Projects/MediaWatcher/MediaWatcher.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/mnt/8b1a6e76-bbf8-4fe5-b4ae-04da55d7e0ac/Projects/MediaWatcher/MediaWatcher.csproj",
+        "projectName": "MediaWatcher",
+        "projectPath": "/mnt/8b1a6e76-bbf8-4fe5-b4ae-04da55d7e0ac/Projects/MediaWatcher/MediaWatcher.csproj",
+        "packagesPath": "/home/opyrusdev/.nuget/packages/",
+        "outputPath": "/mnt/8b1a6e76-bbf8-4fe5-b4ae-04da55d7e0ac/Projects/MediaWatcher/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/opyrusdev/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/opt/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/opt/dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

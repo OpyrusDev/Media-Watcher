@@ -1,0 +1,8 @@
+/mnt/8b1a6e76-bbf8-4fe5-b4ae-04da55d7e0ac/MediaWatcher/MediaWatcher
+/mnt/8b1a6e76-bbf8-4fe5-b4ae-04da55d7e0ac/MediaWatcher/appsettings.Development.json
+/mnt/8b1a6e76-bbf8-4fe5-b4ae-04da55d7e0ac/MediaWatcher/appsettings.json
+/mnt/8b1a6e76-bbf8-4fe5-b4ae-04da55d7e0ac/MediaWatcher/config.json
+/mnt/8b1a6e76-bbf8-4fe5-b4ae-04da55d7e0ac/MediaWatcher/MediaWatcher.dll
+/mnt/8b1a6e76-bbf8-4fe5-b4ae-04da55d7e0ac/MediaWatcher/MediaWatcher.deps.json
+/mnt/8b1a6e76-bbf8-4fe5-b4ae-04da55d7e0ac/MediaWatcher/MediaWatcher.runtimeconfig.json
+/mnt/8b1a6e76-bbf8-4fe5-b4ae-04da55d7e0ac/MediaWatcher/MediaWatcher.pdb
