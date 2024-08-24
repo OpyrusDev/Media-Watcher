@@ -1,15 +1,20 @@
+using System;
+using System.Net.Http.Headers;
 using MediaWatcher.Models;
+using Microsoft.AspNetCore.Mvc.Formatters;
+using Microsoft.AspNetCore.StaticFiles;
 
 namespace MediaWatcher.Services;
 
-public class FileIndexService
+public class MusicIndexService
 {
-    public static string LibraryPath = "/home/opyrusdev/Videos/";
-    readonly string[] authorizedExtensions =  [".mp4", ".avi", ".mkv", ".ts"];
-    public List<FileMetadata> IndexFiles(string directoryPath = "/")
+    public static string MusicLibraryPath {get; set;} = string.Empty;
+
+    readonly string[] authorizedExtensions =  [".mp3", ".ogg"];
+    public List<FileMetadata> IndexFiles(string directoryPath = "")
     {
         var files = new List<FileMetadata>();
-        var path = Path.Combine(LibraryPath, directoryPath);
+        var path = Path.Combine(MusicLibraryPath, directoryPath);
         var directoryInfo = new DirectoryInfo(path);
 
         foreach (var dir in directoryInfo.GetDirectories())
@@ -33,9 +38,8 @@ public class FileIndexService
     public List<FileMetadata> GetFiles(string directoryPath){
 
         var files = new List<FileMetadata>();
-        var path = Path.Combine(LibraryPath, directoryPath);
+        var path = Path.Combine(MusicLibraryPath, directoryPath);
         var directoryInfo = new DirectoryInfo(path);
-
         foreach (var file in directoryInfo.GetFiles())
         {
             var hasNoExtension = string.IsNullOrEmpty(file.Extension);
@@ -51,7 +55,7 @@ public class FileIndexService
 
     public List<FileMetadata> GetFolders(string category){
         var files = new List<FileMetadata>();
-        var path = Path.Combine(LibraryPath, category);
+        var path = Path.Combine(MusicLibraryPath, category);
         var directoryInfo = new DirectoryInfo(path);
 
         foreach (var dir in directoryInfo.GetDirectories())
@@ -64,7 +68,7 @@ public class FileIndexService
 
     public List<FileMetadata> GetCategories(){
         var files = new List<FileMetadata>();
-        var directoryInfo = new DirectoryInfo(LibraryPath);
+        var directoryInfo = new DirectoryInfo(MusicLibraryPath);
 
         foreach (var dir in directoryInfo.GetDirectories())
         {
@@ -88,7 +92,7 @@ public class FileIndexService
         return new FileMetadata
             {
                 Name = name,
-                Path = file.FullName.Replace(LibraryPath, ""),
+                Path = file.FullName.Replace(MusicLibraryPath, ""),
                 Size = file.Length,
                 LastModified = file.LastWriteTime,
                 Extension = file.Extension.Remove(0),
@@ -100,12 +104,11 @@ public class FileIndexService
         return new FileMetadata
             {
                 Name = dir.Name,
-                Path = dir.FullName.Replace(LibraryPath, ""),
+                Path = dir.FullName.Replace(MusicLibraryPath, ""),
                 LastModified = dir.LastWriteTime,
                 Extension = string.Empty,
                 Size = 0,
                 IsDirectory = true
             };
     }
-
 }

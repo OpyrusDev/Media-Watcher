@@ -8,9 +8,9 @@ public class FileIndexRepository
 {
     private readonly List<FileMetadata> _indexedFiles = new List<FileMetadata>();
 
-    private readonly FileIndexService _service;
+    private readonly VideoIndexService _service;
 
-    public FileIndexRepository(FileIndexService service){
+    public FileIndexRepository(VideoIndexService service){
         _service = service;
     }
 

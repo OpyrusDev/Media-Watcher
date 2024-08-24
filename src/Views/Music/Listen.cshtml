@@ -11,9 +11,8 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        @* <link href="~/css/video-js.css" rel="stylesheet" /> *@
         <link href="~/css/video-js.css" rel="stylesheet" />
-        <link rel="stylesheet" href="~/css/player.css" asp-append-version="true" />
+        <link rel="stylesheet" href="~/css/player.css" />
     </head>
 
     <body>
@@ -25,28 +24,28 @@
                     class="video-js"
                     controls
                     preload="auto"
-                    
-                    poster="MY_VIDEO_POSTER.jpg"
                     data-setup="{}"
+                    autoplay="true"
                 >
-                <source src='@Model["videoSrc"]'/>
+                    <source src='@Model["audioSrc"]' content-type="music/mp3" poster='@Model["audioSrc"]' />
+                </video>
                 <h2 class="page-title"> @Model["title"]</h2>
             </div>        
 
             <div class="right-section">
                 <h1 class="page-title">Playlist</h1>
                 <ul>
-                    @foreach(var video in Model["otherVideos"]){
+                    @foreach(var music in Model["otherMusics"]){
                         <li>
                             <div class="card">
                                 <div class="card-body">
                                     <i class="bx bxs-videos"></i>
                                     
                                     <h5 class="card-title">
-                                        @video.Name
+                                        @music.Name
                                     </h5>
                                     
-                                    <a asp-action="Watch" asp-route-video="@video.Path" class="btn">Watch</a>
+                                    <a asp-action="Listen" asp-route-music="@music.Path" class="btn">Listen</a>
                                 </div>
                             </div>
                         </li>

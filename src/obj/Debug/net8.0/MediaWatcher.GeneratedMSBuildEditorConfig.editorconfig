@@ -18,20 +18,24 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /mnt/8b1a6e76-bbf8-4fe5-b4ae-04da55d7e0ac/Projects/MediaWatcher/src
 build_property._RazorSourceGeneratorDebug = 
 
-[/mnt/8b1a6e76-bbf8-4fe5-b4ae-04da55d7e0ac/Projects/MediaWatcher/src/Views/Home/Browse.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Ccm93c2UuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [/mnt/8b1a6e76-bbf8-4fe5-b4ae-04da55d7e0ac/Projects/MediaWatcher/src/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/mnt/8b1a6e76-bbf8-4fe5-b4ae-04da55d7e0ac/Projects/MediaWatcher/src/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+[/mnt/8b1a6e76-bbf8-4fe5-b4ae-04da55d7e0ac/Projects/MediaWatcher/src/Views/Music/Browse.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTXVzaWMvQnJvd3NlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/mnt/8b1a6e76-bbf8-4fe5-b4ae-04da55d7e0ac/Projects/MediaWatcher/src/Views/Home/Watch.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9XYXRjaC5jc2h0bWw=
+[/mnt/8b1a6e76-bbf8-4fe5-b4ae-04da55d7e0ac/Projects/MediaWatcher/src/Views/Music/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTXVzaWMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/mnt/8b1a6e76-bbf8-4fe5-b4ae-04da55d7e0ac/Projects/MediaWatcher/src/Views/Music/Listen.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTXVzaWMvTGlzdGVuLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/mnt/8b1a6e76-bbf8-4fe5-b4ae-04da55d7e0ac/Projects/MediaWatcher/src/Views/Music/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTXVzaWMvUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/mnt/8b1a6e76-bbf8-4fe5-b4ae-04da55d7e0ac/Projects/MediaWatcher/src/Views/Shared/Error.cshtml]
@@ -40,6 +44,22 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/mnt/8b1a6e76-bbf8-4fe5-b4ae-04da55d7e0ac/Projects/MediaWatcher/src/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/mnt/8b1a6e76-bbf8-4fe5-b4ae-04da55d7e0ac/Projects/MediaWatcher/src/Views/Video/Browse.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmlkZW8vQnJvd3NlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/mnt/8b1a6e76-bbf8-4fe5-b4ae-04da55d7e0ac/Projects/MediaWatcher/src/Views/Video/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmlkZW8vSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/mnt/8b1a6e76-bbf8-4fe5-b4ae-04da55d7e0ac/Projects/MediaWatcher/src/Views/Video/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmlkZW8vUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/mnt/8b1a6e76-bbf8-4fe5-b4ae-04da55d7e0ac/Projects/MediaWatcher/src/Views/Video/Watch.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmlkZW8vV2F0Y2guY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/mnt/8b1a6e76-bbf8-4fe5-b4ae-04da55d7e0ac/Projects/MediaWatcher/src/Views/_ViewImports.cshtml]

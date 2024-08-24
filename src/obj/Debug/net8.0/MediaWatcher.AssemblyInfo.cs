@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MediaWatcher")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fe4d946ecc80847c507c60322b7a585f89b97351")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b200a7b708f33a09b160ef8ebc646fe226c09565")]
 [assembly: System.Reflection.AssemblyProductAttribute("MediaWatcher")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MediaWatcher")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,41 @@
+﻿@{
+    ViewData["Title"] = "Browse";
+}
+
+
+<div class="container">
+    <h1 class="page-title">Media Categories</h1>
+    <div class="card-grid">
+        @foreach (var entity in Model)
+        {
+            <div class="card">
+                <div class="card-body">
+                     @if (entity.IsDirectory)
+                    {
+                        <i class="bx bx-folder"></i>
+                    }
+                    else
+                    {
+                        <i class="bx bxs-videos"></i>
+                    }
+                    
+                    <h5 class="card-title">
+                        @entity.Name
+                    </h5>
+
+                    <div class="preview">
+                    </div>
+                    
+                    @if (entity.IsDirectory)
+                    {
+                        <a asp-action="Browse" asp-route-position="@entity.Path" class="btn">Browse</a>
+                    }
+                    else
+                    {
+                        <a asp-action="Watch" asp-route-video="@entity.Path" class="btn">Watch</a>
+                    }
+                </div>
+            </div>
+        }
+    </div>
+</div>

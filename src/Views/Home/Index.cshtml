@@ -1,22 +1,28 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
-<div class="container">
-    <h1 class="page-title">Media Categories</h1>
+<div class="container">Libraries</h1>
     <div class="card-grid">
-        @foreach (var category in Model)
-        {
-            <div class="card">
-                <div class="card-body">
-                    <i class='bx bx-folder' > </i>
-                    <h5 class="card-title">
-                        
-                        @category.Name
-                    </h5>
-                    
-                    <a asp-action="Browse" asp-route-position="@category.Path" class="btn">Browse</a>
-                </div>
+        <div class="card">
+            <div class="card-body">
+                <i class='bx bx-video' > </i>
+                <h5 class="card-title">
+                    Video
+                </h5>
+                
+                <a asp-controller="video" asp-action="index" class="btn">Browse</a>
             </div>
-        }
+        </div>
+
+        <div class="card">
+            <div class="card-body">
+                <i class='bx bx-music' > </i>
+                <h5 class="card-title">
+                    Music
+                </h5>
+                
+                <a asp-controller="music" asp-action="index" class="btn">Browse</a>
+            </div>
+        </div>
     </div>
 </div>
